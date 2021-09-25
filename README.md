@@ -16,7 +16,7 @@ There are many ways to decide which users are similar and combine their choices 
 Our Version is made in python.
 
 ### The dataset
-We pull the data directly from the YELP API, which is very useful to analyze places and preferences.
+We pull the data directly from the API, which is very useful to analyze places and preferences.
 The users' reaction can be explicit (rating on a scale of 1 to 5, likes or dislikes) or implicit (viewing an item, adding it to a wish list, the time spent on an article).
 
 ### Steps involved in collaborative filtering
@@ -27,6 +27,13 @@ We asked ourselves these questions:
 
 The third question for how to measure the accuracy of your predictions also has multiple answers, which include error calculation techniques that can be used in many places and not just recommenders based on collaborative filtering.
 
-### How we calculate the ratings?
-![formula](https://files.realpython.com/media/average_rating.73cdfc1d58c4.png)
-We apply this formula to our dataset
+## Wav2vec 2.0, learning the structure of pitch from raw audio
+
+* This new model learns basic speech units used to tackle a self-supervised task. The model is trained to predict the correct speech unit for masked parts of the audio, while at the same time learning what the speech units should be.
+
+* With just 10 minutes of transcribed speech and 53K hours of unlabeled speech, wav2vec 2.0 enables speech recognition models at a word error rate (WER) of 8.6 percent on noisy speech and 5.2 percent on clean speech on the standard LibriSpeech benchmark.
+
+
+ 
+
+
