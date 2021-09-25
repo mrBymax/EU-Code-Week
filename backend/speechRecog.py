@@ -1,0 +1,8 @@
+import speechRecog as sr
+
+r = sr.Recognizer()
+mic = sr.Microphone()
+
+with mic as source:
+    audio = r.listen(source)
+    
